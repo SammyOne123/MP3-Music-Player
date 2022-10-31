@@ -1,11 +1,11 @@
-#importing libraries 
+
 from pygame import mixer
 from tkinter import *
 import tkinter.font as font
 from tkinter import filedialog
 
 
-#add many songs to the playlist
+#add the songs
 def addsongs():
     #a list of songs is returned 
     temp_song=filedialog.askopenfilenames(initialdir="Music/",title="Choose a song", filetypes=(("mp3 Files","*.mp3"),))
